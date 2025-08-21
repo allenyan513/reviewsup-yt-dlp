@@ -19,6 +19,6 @@ def extract_video_info(url: str) -> dict:
             "title": info.get("title"),
             "uploader": info.get("uploader") or info.get("channel"),
             "duration": info.get("duration"),
-            "thumbnail": info.get("thumbnail"),
+            # "thumbnail": info.get("thumbnail"),
             "video_url": best.get("url"),
         }

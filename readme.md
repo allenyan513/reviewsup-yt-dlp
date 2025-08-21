@@ -1,0 +1,1 @@
+pm2 start "uvicorn app.main:app --host 0.0.0.0 --port 6003" --name yt-dlp-server

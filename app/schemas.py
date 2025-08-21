@@ -7,5 +7,5 @@ class VideoInfo(BaseModel):
     title: str
     uploader: str
     duration: float
-    thumbnail: str
+    # thumbnail: str
     video_url: str
